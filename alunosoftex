@@ -1,0 +1,22 @@
+algoritmo "mediadoaluno"
+var
+   nome:caractere
+   n1, n2, m:real
+   falta:inteiro
+inicio
+      Escreval(" Área do Aluno")
+      Escreva("Digite o nome completo: ")
+      Leia(nome)
+      Escreva("Digite o número de faltas(somente número): ")
+      Leia(falta)
+      Escreva("Digite a primeira nota: ")
+      Leia(n1)
+      Escreva("Digite a segunda nota: ")
+      Leia(n2)
+      m <- (n1+n2)/2
+      Se (m>=7) e (falta<=3) entao
+         Escreva(" Parabéns! Você foi aprovado.")
+      Senao
+         Escreva(" Você foi reprovado.")
+      Fimse
+fimalgoritmo
